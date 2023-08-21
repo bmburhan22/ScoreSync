@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ScoreSync</title>
+  <link rel="stylesheet" href="score_sync.css"></link>
+</head>
+
+<body>
+  <div class="container">
+    <h1>ScoreSync</h1>
+    <button class="btn btn-totalRuns" id="totalRuns"></button>
+    <button class="btn btn-delete" onclick="deleteLatestJson()">Delete</button>
+    <button class="btn btn-0" onclick="addJson(0)">0</button>
+    <button class="btn btn-1" onclick="addJson(1)">1</button>
+    <button class="btn btn-4" onclick="addJson(4)">4</button>
+    
+
+    <!-- <button class="btn">burhan</button>
+    <button class="btn">haider</button>
+    <button class="btn">inder</button> -->
+
+
+    <div class="scrollable" id="jsonList"></div>
+
+    <button class="btn" onclick="resetBallNumber()">Reset</button>
+    <!-- The button used to copy the scores-->
+    <button class="btn" onclick="copyScores()">Copy Scores</button>
+
+  </div>
+
+
+
+
+
+
+</body>
+
+<script src="score_sync.js"></script>>
+</html>

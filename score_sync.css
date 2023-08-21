@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .btn {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .btn-delete {
+    background-color: red;
+    color: white;
+  }
+  .btn-totalRuns {
+    background-color: rgb(210, 214, 0);
+    color: white;
+  }
+
+  .btn-0 {  
+    background-color: rgba(166, 162, 162, 0.888);
+    color: black;
+  }
+
+  .btn-1 {
+    background-color: blue;
+    color: white;
+  }
+
+  .btn-4 {
+    background-color: green;
+    color: white;
+  }
+
+  .scrollable {
+    max-height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+  }
